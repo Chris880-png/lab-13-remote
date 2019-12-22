@@ -1,0 +1,34 @@
+/* */
+/* in your stylesheet, make sure that the entire page uses sans-serif fonts */
+* {
+	font-family: initial;
+}
+/* make your largest headings red */
+h1 {
+	color: yellow;
+}
+
+h2 {
+	color: pink;
+}
+
+h3 {
+
+    font-size: 24px;
+
+}
+
+/* put a black border around every element with a class of active */
+.active {
+	border-color: blue;
+	border-style: solid;
+	border-width: 4px;
+}
+/* put in this as a repeating background image! */
+body {
+	background: white url(https://vignette.wikia.nocookie.net/spongebob/images/2/2c/SpongeBob%27s_Place.png/revision/latest?cb=20170330152848.png) repeat top right;
+}
+/* make the margins around your paragraphs 20px */
+p {
+	margin: 20px;
+}
